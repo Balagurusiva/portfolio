@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+ import { BrowserRouter } from 'react-router-dom'
 
 import {  Hero,Navbar,About,Tech,Experience,Works,Feedbacks,Contact,EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './components'
 
