@@ -2,7 +2,7 @@ import { Suspense, useEffect, useState } from "react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
 import { SpotLight } from "@react-three/drei"
-import canvasLoader from '../Loader'
+ 
 import { services } from "../../constants"
  
 
