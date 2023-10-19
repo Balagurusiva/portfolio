@@ -221,7 +221,8 @@ const projects = [
             },
         ],
         image: amazonsite,
-        source_code_link: "https://github.com/",
+        site_link: "https://amazon-frontend-ui-clone.netlify.app/", 
+        source_code_link: "https://github.com/Balagurusiva/amazon-frontend-ui-clone",
     },
     {
         name: "Mini projects",
@@ -250,7 +251,8 @@ const projects = [
             },
         ],
         image: githubpic,
-        source_code_link: "https://github.com/",
+        site_link:"https://github.com/Balagurusiva",
+        source_code_link: "https://github.com/Balagurusiva",
     },
 ];
 
