@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import vtube from './vtube.png'
+import amazonsite from './amazonsite.png'
+import githubpic from './githubpic.png'
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  vtube,
+  amazonsite,
+  githubpic
 };

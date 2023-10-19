@@ -46,10 +46,10 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
             >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fugiat incidunt molestias suscipit impedit praesentium iure delectus perspiciatis ipsam dolorum magnam ex error unde architecto quibusdam, rem quos sapiente veritatis!
+                "A diligent computer science engineering graduate specializing in MERN stack web development, seeking to contribute innovative solutions in the IT industry. My robust academic background and hands-on project experience reflect my commitment to delivering high-quality, user-centered web applications."
             </motion.p>
 
-            <div className='mt-20 flex flex-wrap gap-10 '>
+            <div className='mt-20 flex justify-center flex-wrap gap-10 '>
                 {services.map((service, index) => (
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}
