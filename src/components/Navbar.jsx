@@ -35,7 +35,7 @@ const Navbar = () => {
                                 `${active === Link.title ? "text-white " : "text-secondary"} 
                                  hover:text-white text-[18px] font-medium cursor-pointer` }
                             onClick={() => setActive(Link.title)}>
-                            <a href={`#${Link.id}`}>{Link.title}</a>
+                                {Link.id === "resume" ?<a href='https://drive.google.com/file/d/1KhnMh4GZai3O9gp-HuDO4nMtgai0bfnD/view' target='_blank'>{Link.title}</a> :<a href={`#${Link.id}`}>{Link.title}</a>}
                         </li>
                     ))}
                 </ul>
@@ -58,7 +58,8 @@ const Navbar = () => {
                                     setToggle(!toggle)
                                     setActive(Link.title)
                                 }}>
-                                <a href={`#${Link.id}`}>{Link.title}</a>
+                                    {Link.id === "resume" ?<a href='https://drive.google.com/file/d/1KhnMh4GZai3O9gp-HuDO4nMtgai0bfnD/view' target='_blank'>{Link.title}</a> :<a href={`#${Link.id}`}>{Link.title}</a>}
+                             
                             </li>
                         ))}
                     </ul>
