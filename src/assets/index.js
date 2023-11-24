@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import vtube from './vtube.png'
 import amazonsite from './amazonsite.png'
 import githubpic from './githubpic.png'
+import datachisel from './datachisel.jpg'
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   tripguide,
   vtube,
   amazonsite,
-  githubpic
+  githubpic,
+  datachisel
 };

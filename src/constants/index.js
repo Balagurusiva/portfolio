@@ -18,7 +18,8 @@ import {
     github,
     vtube,
     amazonsite,
-    githubpic
+    githubpic,
+    datachisel
 } from "../assets";
 
 export const navLinks = [
@@ -203,7 +204,29 @@ const projects = [
         source_code_link: "https://github.com/Balagurusiva/vtube",
     },
     {
-        name: "Amazon UI clone",
+        name: "DataChisel",
+        description:
+            " DataChisel!  website is your ultimate shopping sidekick. Track and conquer the best deals effortlessly, and never miss a price drop again! .",
+        tags: [
+            {
+                name: "next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwindCss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: datachisel,
+        site_link: "https://datachisel.vercel.app/", 
+        source_code_link: "https://github.com/Balagurusiva/web_scrapper",
+    },
+    {
+        name: "Amazon UI Clone",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -254,6 +277,7 @@ const projects = [
         site_link:"https://github.com/Balagurusiva",
         source_code_link: "https://github.com/Balagurusiva",
     },
+    
 ];
 
 export { services, technologies, experiences, testimonials, projects };
