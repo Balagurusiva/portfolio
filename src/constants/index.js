@@ -19,7 +19,8 @@ import {
     vtube,
     amazonsite,
     githubpic,
-    datachisel
+    datachisel,
+    RESTAPI
 } from "../assets";
 
 export const navLinks = [
@@ -250,6 +251,32 @@ const projects = [
         image: amazonsite,
         site_link: "https://amazon-frontend-ui-clone.netlify.app/", 
         source_code_link: "https://github.com/Balagurusiva/amazon-frontend-ui-clone",
+    },
+    {
+        name:"BackEnd API for Shareify",
+        description:
+            "Developed RESTful backend API for social media site shareify.Request has been responsed with jsend json data seperate API into logical resources",
+        tags: [
+            {
+                name: "NodeJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "ExpressJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MongoDB ",
+                color: "pink-text-gradient",
+            },
+                {
+                name: "Mongoose",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: RESTAPI,
+        site_link: "https://github.com/Balagurusiva/shareify-backend", 
+        source_code_link: "https://github.com/Balagurusiva/shareify-backend",
     },
     {
         name: "Mini projects",
