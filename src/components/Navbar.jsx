@@ -35,7 +35,7 @@ const Navbar = () => {
                                 `${active === Link.title ? "text-white " : "text-secondary"} 
                                  hover:text-white text-[18px] font-medium cursor-pointer` }
                             onClick={() => setActive(Link.title)}>
-                                {Link.id === "resume" ?<a href='https://drive.google.com/file/d/1JDXFOt6d3CgJF9t70S47b14yRmSIk3e6/view?usp=sharing' target='_blank'>{Link.title}</a> :<a href={`#${Link.id}`}>{Link.title}</a>}
+                                {Link.id === "resume" ?<a href='https://drive.google.com/file/d/1eZEI4u6_MFvdV1-nttEbUR7vHW6ZqbRZ/view?usp=sharing' target='_blank'>{Link.title}</a> :<a href={`#${Link.id}`}>{Link.title}</a>}
                         </li>
                     ))}
                 </ul>
@@ -58,7 +58,7 @@ const Navbar = () => {
                                     setToggle(!toggle)
                                     setActive(Link.title)
                                 }}>
-                                    {Link.id === "resume" ?<a href='https://drive.google.com/file/d/1rR6iY70mBZ5RWyELDrqTlRCEUAXq4a63/view?usp=sharing' target='_blank'>{Link.title}</a> :<a href={`#${Link.id}`}>{Link.title}</a>}
+                                    {Link.id === "resume" ?<a href='https://drive.google.com/file/d/1eZEI4u6_MFvdV1-nttEbUR7vHW6ZqbRZ/view?usp=sharing' target='_blank'>{Link.title}</a> :<a href={`#${Link.id}`}>{Link.title}</a>}
                              
                             </li>
                         ))}
